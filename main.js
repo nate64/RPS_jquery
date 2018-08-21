@@ -24,6 +24,8 @@ $(document).ready( function() {
     var compare = evaluate()
     console.log(compare)
     //increment score??
+    if compare = win, increment userScore ++1
+    else increment compScore ++ 1
     })
 
   paper.on('click', function(){
